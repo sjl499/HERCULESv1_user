@@ -1,0 +1,48 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hubbard(2012)]{Hubbard2012}
+W.~B. Hubbard.
+\newblock {High-precision Maclaurin-based models of rotating liquid planets}.
+\newblock \emph{The Astrophysical Journal}, 756\penalty0 (1):\penalty0 L15,
+  2012.
+\newblock ISSN 2041-8205.
+\newblock \doi{10.1088/2041-8205/756/1/L15}.
+\newblock URL
+  \url{http://iopscience.iop.org/article/10.1088/2041-8205/756/1/L15}.
+
+\bibitem[Hubbard et~al.(2014)Hubbard, Schubert, Kong, and Zhang]{Hubbard2014}
+W.B. Hubbard, G.~Schubert, D.~Kong, and K.~Zhang.
+\newblock {On the convergence of the theory of figures}.
+\newblock \emph{Icarus}, 242:\penalty0 138--141, 2014.
+\newblock ISSN 00191035.
+\newblock \doi{10.1016/j.icarus.2014.08.014}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S001910351400428X}.
+
+\bibitem[Hubbard(2013)]{Hubbard2013}
+WB~B. Hubbard.
+\newblock {Concentric Maclaurin spheroid models of rotating liquid planets}.
+\newblock \emph{The Astrophysical Journal}, 768\penalty0 (1):\penalty0 43,
+  2013.
+\newblock ISSN 0004-637X.
+\newblock \doi{10.1088/0004-637X/768/1/43}.
+\newblock URL \url{http://iopscience.iop.org/article/10.1088/0004-637X/768/1/43
+  http://iopscience.iop.org/0004-637X/768/1/43}.
+
+\bibitem[Kong et~al.(2013)Kong, Zhang, and Schubert]{Kong2013}
+Dali Kong, Keke Zhang, and Gerald Schubert.
+\newblock {On the gravitational fields of Maclaurin spheroid models of rotating
+  fluid planets}.
+\newblock \emph{The Astrophysical Journal}, 764\penalty0 (1):\penalty0 67,
+  2013.
+\newblock ISSN 0004-637X.
+\newblock \doi{10.1088/0004-637X/764/1/67}.
+\newblock URL
+  \url{http://iopscience.iop.org/article/10.1088/0004-637X/764/1/67}.
+
+\end{thebibliography}

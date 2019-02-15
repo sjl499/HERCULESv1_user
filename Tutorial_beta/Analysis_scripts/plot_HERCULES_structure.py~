@@ -1,0 +1,31 @@
+#SJL 11/15
+#Script to plot a given structure and print out its essential features
+
+#import required modules
+import sys
+
+#Here you will need to point to HERCULES structures on your machine
+sys.path.append('/Users/simonlock/Dropbox/HERCULES/Development/Python_scripts')
+from HERCULES_structures import *
+
+###############################################################
+###############################################################
+###############################################################
+#PARAMS
+
+#the path to the structure file you want to read.
+fname="/Users/simonlock/Dropbox/HERCULES/Development/HERCULES_v1.0/Output/tutorial1_L0_N50_Nm400_k6_f020_p10_l1_0_1.5_final"
+
+###############################################################
+#define blank planet and parameter classes
+params=HERCULES_parameters()
+p=HERCULES_planet()
+
+#read in HERCULES output
+file = open(fname, "rb")
+params.read_binary(file)
+p.read_binary(file)
+file.close()
+
+#For example, print the mass of the planet
+print('Mass of the planet is '+str(p.Mtot)+' kg')

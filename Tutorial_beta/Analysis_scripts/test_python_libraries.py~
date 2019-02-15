@@ -1,0 +1,51 @@
+#SJL 11/15
+#Script to plot a given structure and print out its essential features
+
+#import required modules
+import numpy as np
+from scipy import constants as const
+
+import matplotlib.pyplot as plt
+import pylab
+
+from HERCULES_structures import *
+
+###############################################################
+###############################################################
+###############################################################
+#parameters for plot
+fname="../Working_version/Output/testingfinal"
+
+
+###############################################################
+#define the planet and parameters
+params=HERCULES_parameters()
+p=HERCULES_planet()
+
+#read in HERCULES output
+file = open(fname, "rb")
+params.read_binary(file)
+p.read_binary(file)
+file.close()
+
+###############################################################
+#plot the structure
+fig1=plt.figure(figsize=(4,4))
+plt.rc('text', usetex=True)
+plt.rc('font', family='sans-serif')
+plt.rcParams.update({'font.size': 10})
+
+
+ax1a=plt.subplot(1, 1, 1)
+col=plt.cm.jet(np.linspace(1,0, p.Nlayer))
+plt.hold(True)
+for i in np.arange(0, p.Nlayer):
+    ax1a.plot(p.layers[i].xi*p.layers[i].a*np.sqrt(1-p.layers[i].mu**2)/1E6, p.layers[i].xi*p.layers[i].a*p.layers[i].mu/1E6, '+', color=col[i])
+plt.gca().set_aspect('equal', adjustable='box')
+ax1a.set_xlabel('Radius (Mm)')
+ax1a.set_ylabel('Height (Mm)')
+
+
+
+fig1.tight_layout()
+plt.savefig('Structure_plot'+params.run_name+'.pdf')

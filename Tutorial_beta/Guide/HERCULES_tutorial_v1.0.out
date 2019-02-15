@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Overview of HERCULES}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Running HERCULES}{}% 3
+\BOOKMARK [1][-]{section.3}{Understanding the output of HERCULES}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Command line output}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Structure files}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Plotting}{}% 7
+\BOOKMARK [1][-]{section.5}{Rotating planets}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Constant rotation}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Angular momentum conservation}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Mass, composition and thermal state}{}% 11
+\BOOKMARK [1][-]{section.7}{Initial conditions}{}% 12
+\BOOKMARK [1][-]{section.8}{Precision}{}% 13
+\BOOKMARK [2][-]{subsection.8.1}{Iteration tolerances}{section.8}% 14
+\BOOKMARK [2][-]{subsection.8.2}{Number of layers}{section.8}% 15
+\BOOKMARK [2][-]{subsection.8.3}{Truncating spherical harmonic expansion}{section.8}% 16
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 17

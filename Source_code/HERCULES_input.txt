@@ -28,7 +28,7 @@
 	Mass = { 4.1729748E24, 1.81499E24 }	\\Mass of each of the materials
 	ref_rho = 1.0E3	 	\\Reference density for flag_Mconc=0
 	kmax = 12      		\\Maximum degree to consider
-     	Nmu = 1000	      	\\Number of angular points to calculate
+     	Nmu = 200	      	\\Number of angular points to calculate
 	omega_rot = 0.0E-04     \\Rotation rate (for flag_Lconc=0)
 	Ltot = 3.53E34	      	\\Total angular momentum of body (for flag_Lconc=1)
 	pmin = 1.0E6	      	\\Outer layer pressure

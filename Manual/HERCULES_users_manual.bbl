@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,12 +6,27 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[Canup(2012)]{Canup2012}
-Robin~M Canup.
+Robin~M. Canup.
 \newblock {Forming a Moon with an Earth-like composition via a giant impact}.
-\newblock \emph{Science}, 338\penalty0 (6110):\penalty0 1052--5, 2012.
-\newblock ISSN 1095-9203.
+\newblock \emph{Science}, 338\penalty0 (6110):\penalty0 1052--1055, 2012.
+\newblock ISSN 10959203.
 \newblock \doi{10.1126/science.1226073}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/23076098}.
+
+\bibitem[Carter et~al.(2020)Carter, Lock, and Stewart]{Carter2020}
+P.~J. Carter, S.~J. Lock, and S.~T. Stewart.
+\newblock {The Energy Budgets of Giant Impacts}.
+\newblock \emph{Journal of Geophysical Research: Planets}, 125\penalty0 (1),
+  2020.
+\newblock ISSN 21699100.
+\newblock \doi{10.1029/2019JE006042}.
+
+\bibitem[{\'{C}}uk et~al.(2021){\'{C}}uk, Lock, Stewart, and Hamilton]{Cuk2021}
+Matija {\'{C}}uk, Simon~J. Lock, Sarah~T. Stewart, and Douglas~P. Hamilton.
+\newblock {Tidal evolution of the earth-moon system with a high initial
+  obliquity}.
+\newblock \emph{Planetary Science Journal}, 2\penalty0 (4), 2021.
+\newblock ISSN 26323338.
+\newblock \doi{10.3847/PSJ/ac12d1}.
 
 \bibitem[Hubbard(2012)]{Hubbard2012}
 W.~B. Hubbard.
@@ -20,8 +35,6 @@ W.~B. Hubbard.
   2012.
 \newblock ISSN 2041-8205.
 \newblock \doi{10.1088/2041-8205/756/1/L15}.
-\newblock URL
-  \url{http://iopscience.iop.org/article/10.1088/2041-8205/756/1/L15}.
 
 \bibitem[Hubbard et~al.(2014)Hubbard, Schubert, Kong, and Zhang]{Hubbard2014}
 W.B. Hubbard, G.~Schubert, D.~Kong, and K.~Zhang.
@@ -29,8 +42,6 @@ W.B. Hubbard, G.~Schubert, D.~Kong, and K.~Zhang.
 \newblock \emph{Icarus}, 242:\penalty0 138--141, 2014.
 \newblock ISSN 00191035.
 \newblock \doi{10.1016/j.icarus.2014.08.014}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S001910351400428X}.
 
 \bibitem[Hubbard(2013)]{Hubbard2013}
 WB~B. Hubbard.
@@ -39,8 +50,6 @@ WB~B. Hubbard.
   2013.
 \newblock ISSN 0004-637X.
 \newblock \doi{10.1088/0004-637X/768/1/43}.
-\newblock URL \url{http://iopscience.iop.org/article/10.1088/0004-637X/768/1/43
-  http://iopscience.iop.org/0004-637X/768/1/43}.
 
 \bibitem[Kong et~al.(2013)Kong, Zhang, and Schubert]{Kong2013}
 Dali Kong, Keke Zhang, and Gerald Schubert.
@@ -50,47 +59,59 @@ Dali Kong, Keke Zhang, and Gerald Schubert.
   2013.
 \newblock ISSN 0004-637X.
 \newblock \doi{10.1088/0004-637X/764/1/67}.
-\newblock URL
-  \url{http://iopscience.iop.org/article/10.1088/0004-637X/764/1/67}.
+
+\bibitem[Lock et~al.(2019)Lock, Stewart, Carter, Davies, Petaev, and
+  Jacobsen]{Lock2019}
+S.~J. Lock, S.~T. Stewart, P.~J. Carter, E.~J. Davies, M.~I. Petaev, and S.~B.
+  Jacobsen.
+\newblock {Size distribution of chondrules set by droplet breakup and coupling
+  during vaporizing collisions in the nebula}.
+\newblock In \emph{Lunar and Planetary Science Conference Abstracts},
+  volume~50, page 2132, 2019.
 
 \bibitem[Lock and Stewart(2017)]{Lock2017}
 Simon~J. Lock and Sarah~T. Stewart.
 \newblock {The structure of terrestrial bodies: Impact heating, corotation
   limits, and synestias}.
 \newblock \emph{Journal of Geophysical Research: Planets}, 122\penalty0
-  (5):\penalty0 950--982, may 2017.
+  (5):\penalty0 950--982, 2017.
 \newblock ISSN 21699097.
 \newblock \doi{10.1002/2016JE005239}.
-\newblock URL \url{http://doi.wiley.com/10.1002/2016JE005239}.
 
 \bibitem[Lock et~al.(2018)Lock, Stewart, Petaev, Leinhardt, Mace, Jacobsen, and
   {\'{C}}uk]{Lock2018moon}
-Simon~J. Lock, Sarah~T. Stewart, Michail~I. Petaev, Zo{\"{e}}~M. Leinhardt,
-  Mia~T. Mace, Stein~B. Jacobsen, and Matija {\'{C}}uk.
+Simon~J. Lock, Sarah~T. Stewart, Michail~I. Petaev, Zo{\"{e}} Leinhardt, Mia~T.
+  Mace, Stein~B. Jacobsen, and Matija {\'{C}}uk.
 \newblock {The origin of the Moon within a terrestrial synestia}.
 \newblock \emph{Journal of Geophysical Research: Planets}, 123\penalty0
   (4):\penalty0 910--951, 2018.
-\newblock ISSN 21699097.
+\newblock ISSN 21699100.
 \newblock \doi{10.1002/2017JE005333}.
-\newblock URL \url{http://doi.wiley.com/10.1002/2017JE005333}.
+
+\bibitem[Lock et~al.(2020)Lock, Stewart, and {\'{C}}uk]{Lock2020}
+Simon~J. Lock, Sarah~T. Stewart, and Matija {\'{C}}uk.
+\newblock {The energy budget and figure of Earth during recovery from the
+  Moon-forming giant impact}.
+\newblock \emph{Earth and Planetary Science Letters}, 530:\penalty0 115885,
+  2020.
+\newblock ISSN 0012821X.
+\newblock \doi{10.1016/j.epsl.2019.115885}.
 
 \bibitem[Melosh(2007)]{Melosh2007}
 H.~J. Melosh.
-\newblock {A hydrocode equation of state for SiO2}.
-\newblock \emph{Meteoritics {\&} Planetary Science}, 42\penalty0 (12):\penalty0
+\newblock {A hydrocode equation of state for SiO$_2$}.
+\newblock \emph{Meteoritics \&, Planetary Science}, 42\penalty0 (12):\penalty0
   2079--2098, 2007.
 \newblock ISSN 10869379.
 \newblock \doi{10.1111/j.1945-5100.2007.tb01009.x}.
-\newblock URL \url{http://doi.wiley.com/10.1111/j.1945-5100.2007.tb01009.x}.
 
 \bibitem[Ziegel et~al.(2007)Ziegel, Press, Flannery, Teukolsky, and
   Vetterling]{Ziegel2007}
 Eric Ziegel, William Press, Brian Flannery, Saul Teukolsky, and William
   Vetterling.
 \newblock \emph{{Numerical Recipes: The Art of Scientific Computing}}.
-\newblock Cambridge University Press, 3rd editio edition, 2007.
+\newblock Cambridge University Press, 3rd edition, 2007.
 \newblock ISBN 0521431085.
 \newblock \doi{10.2307/1269484}.
-\newblock URL \url{http://www.jstor.org/stable/1269484?origin=crossref}.
 
 \end{thebibliography}

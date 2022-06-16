@@ -3,7 +3,7 @@
 \geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
 %\geometry{landscape}                		% Activate for for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+\usepackage{graphicx}				% Use pdf, png, jpg, or epsÂ§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
 
@@ -90,7 +90,8 @@
 
 
 
-\title{HERCULES User Manual \\ \large Version 1.0.1}
+\title{HERCULES User Manual \\ \large Version 1.0.2}
+%1.02: Minor changes associated with updates to compilers, libaries and supporting documents 
 \author{Simon J. Lock}
 \date{Last updated:  \today }							% Activate to display a given date or no date
 
@@ -2146,7 +2147,7 @@ This is memory intensive, but does allow select transfer of planetary properties
 \section{Running the code}
 \label{HUG:sec:run}
 
-After compilation (see Section~\ref{HUG:sec:compiling}) HERCULES is run by simply typing \texttt{.\/HERCULESv1.0} in the command line. 
+After compilation (see Section~\ref{HUG:sec:compiling}) HERCULES is run by simply typing \texttt{.\/hercules} in the command line. 
 In the directory the code is run there should be an input file \texttt{HERCULES\_input.txt} with the desired parameters for the code (Section~\ref{HUG:sec:input}).
 An \texttt{Output} directory should be created in the run directory.
 
@@ -2213,7 +2214,7 @@ The {\it boost} libraries are to efficiently calculate the Legendre polynomials 
 \subsection{Example make files}
 
 We have compiled HERCULES using both the GNU (\url{https://gcc.gnu.org/}) and intel (\url{https://software.intel.com/en-us/c-compilers}) C++ compilers. 
-An example make file, \texttt{Makefile}, is provided with the HERCULES source code.
+Example make files, \texttt{Makefile} and \texttt{Makefile\_icc}, are provided with the HERCULES source code.
 The main text of the make file is the same in both cases but the flags relevant to the two compilers are given below.
 Using these make files, HERCULES can be compiled using the \texttt{make} command.
 
@@ -2224,7 +2225,7 @@ I used the following flags for the GNU C++ compiler to compile HERCULES on a lat
 Note that the \texttt{-l} flag is the location of the boost libraries. \\
 
 \begin{lstlisting}[language=bash]
-CFLAGS = -o1 -ansi -g -Wall -I /Applications/C_libraries/boost_1_59_0
+CFLAGS = -o1 -ansi -g -Wall -std=c++11 -I /Applications/C_libraries/boost_1_59_0
 LIBS = -l stdc++ -lm
 CXX = g++
 \end{lstlisting}
@@ -2478,7 +2479,14 @@ Here we give a list of known issues with running HERCULES as a record to help us
 \section{Papers published using HERCULES}
 \label{HUG:sec:papers}
 
-\bibentry{Lock2017}
+A selection of published papers that make use of HERCULES.\\
+
+\noindent \bibentry{Lock2017} \\ \\
+\noindent\bibentry{Lock2019}\\ \\
+\noindent\bibentry{Lock2020}\\ \\
+\noindent\bibentry{Carter2020}\\ \\
+\noindent\bibentry{Cuk2021}\\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

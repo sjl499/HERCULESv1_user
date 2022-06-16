@@ -56,11 +56,13 @@ std::transform(v1.begin(), v1.end(), answer.begin(), std::bind2nd(std::multiplie
 
 ////////////////////////////////////////////////////
 //Function to take an array of doubles to the exponent
+
 std::vector<double> VecDoub::VecExp(std::vector<double>& v1)
 {
+  struct op_exp { double operator() (double d) const { return std::exp(d); } };
 std::vector<double> answer;
 answer.resize(v1.size());
- std::transform(v1.begin(), v1.end(), answer.begin(), exp);
+ std::transform(v1.begin(), v1.end(), answer.begin(), op_exp());
 
   return answer;
 }

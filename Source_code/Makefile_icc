@@ -1,17 +1,19 @@
 #SJL: 10/15
-#The make file for the HERCULES code using gnu compilers
+#The make file for the HERCULES code
+#made 11/12/15 using intel/15.0.0-fasrc01
 
-#CFLAGS = -o3 -ansi -g -Wall -std=c++11 -I /Applications/C_libraries/boost_1_59_0
-CFLAGS = -o3 -ansi -g -Wall -std=c++11 -I /usr/local/opt/boost/include 
-LIBS = -l stdc++ -lm 
-CXX = g++
+
+CFLAGS = -O3 -std=c++11 #-o3 -ansi -g -Wall
+LIBS = -l stdc++ -lm
+#CXX = g++
+CXX=icc
 OBJECTS= hercules.o initialisation.o EOS_functions.o vector_operators.o planet_functions.o concentric_layer_functions.o general_functions.o itterate.o parameters_functions.o io_routines.o
 
 # These lines define what each file depends on, and how to make it
 all: hercules #clean #add clean if needed
 
-hercules: ${OBJECTS}
-	$(CXX) $(CFLAGS) $(LIBS) ${OBJECTS} -o hercules
+HERCULESv1.0: ${OBJECTS}
+	$(CXX) $(CFLAGS) $(LIBS) ${OBJECTS} -o HERCULESv1.0
 
 %.o: %.cc
 	$(CXX) $(CFLAGS) $< -c -o $@

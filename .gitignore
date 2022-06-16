@@ -1,0 +1,17 @@
+#ignore the temporary files
+*~
+#and compiliation files
+Source_code/*.o
+#and output files
+Source_code/Output/*
+#and the executable
+Source_code/hercules
+
+#do not store the latex generated files, just the pdf and core codes
+Manual/HERCULES_users_manual.log
+Manual/HERCULES_users_manual.aux
+Manual/HERCULES_users_manual.out
+Manual/HERCULES_users_manual.toc
+Manual/HERCULES_users_manual.bbl	
+Manual/HERCULES_users_manual.blg
+Manual/HERCULES_users_manual.synctex.gz

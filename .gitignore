@@ -15,3 +15,6 @@ Manual/HERCULES_users_manual.toc
 Manual/HERCULES_users_manual.bbl
 Manual/HERCULES_users_manual.blg
 Manual/HERCULES_users_manual.synctex.gz
+
+#Make file
+Source_code/Makefile
